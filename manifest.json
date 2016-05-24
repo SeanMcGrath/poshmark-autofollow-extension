@@ -1,0 +1,14 @@
+{
+	"manifest_version": 2,
+
+	"name": "poshmark autofollow",
+	"description": "Automagically follow every poshmark user you come across",
+	"version": "1.0",
+
+	"content_scripts": [
+		{
+			"matches": ["*://poshmark.com/*"],
+			"js": ["jquery.js", "main.js"]
+		}]
+}
+
